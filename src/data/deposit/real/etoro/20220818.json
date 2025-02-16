@@ -1,0 +1,12 @@
+{
+    "type": "deposit",
+    "broker": "eToro",
+    "src_currency" : "CHF",
+    "src_value" : 571.82,
+    "dest_currency" : "USD",
+    "dest_value" : 600.0,
+    "date": {
+        "year" : 2022,
+        "month": 8,
+        "day": 18}
+}

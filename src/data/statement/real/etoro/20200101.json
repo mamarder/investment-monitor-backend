@@ -1,0 +1,10 @@
+{
+    "type": "statement",
+    "broker": "eToro",
+    "currency" : "USD",
+    "value" : 732.21,
+    "date": {
+        "year" : 2020,
+        "month": 1,
+        "day": 1}
+}

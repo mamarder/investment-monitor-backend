@@ -1,0 +1,10 @@
+{
+    "type": "statement",
+    "broker": "Flatex",
+    "currency" : "EUR",
+    "value" : 8694.10,
+    "date": {
+        "year" : 2024,
+        "month": 9,
+        "day": 9}
+}

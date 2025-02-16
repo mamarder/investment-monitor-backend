@@ -1,0 +1,12 @@
+{
+    "type": "deposit",
+    "broker": "eToro",
+    "src_currency" : "CHF",
+    "src_value" : 475.00,
+    "dest_currency" : "USD",
+    "dest_value" : 500.0,
+    "date": {
+        "year" : 2020,
+        "month": 3,
+        "day": 7}
+}

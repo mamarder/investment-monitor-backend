@@ -1,0 +1,15 @@
+{
+    "name": "inmo-backend:latest",
+    "image": "inmo-backend:latest" ,
+    "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.debugpy"
+    ],
+    "settings": {
+      "terminal.integrated.defaultProfile.linux": "bash"
+    }
+    }
+  }
+}

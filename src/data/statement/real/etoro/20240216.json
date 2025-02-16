@@ -1,0 +1,10 @@
+{
+    "type": "statement",
+    "broker": "eToro",
+    "currency" : "USD",
+    "value" : 13763.00,
+    "date": {
+        "year" : 2024,
+        "month": 2,
+        "day": 16}
+}

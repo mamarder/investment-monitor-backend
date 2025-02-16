@@ -1,0 +1,10 @@
+{
+    "type": "statement",
+    "broker": "eToro",
+    "currency" : "USD",
+    "value" : 7388.97,
+    "date": {
+        "year" : 2022,
+        "month": 1,
+        "day": 1}
+}

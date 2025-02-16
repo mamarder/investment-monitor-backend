@@ -1,0 +1,14 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+          {
+            "label": "flask run",
+            "type": "shell",
+            "command": "flask",
+            "args": ["run", "--port=5000", "--debug"],
+            "options": {"cwd": "${workspaceFolder}/src"},
+            "group":  "build"
+          }
+    ]
+  }
+  

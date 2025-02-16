@@ -1,0 +1,3 @@
+pandas
+flask-restful
+flask-cors
