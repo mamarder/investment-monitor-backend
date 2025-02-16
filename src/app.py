@@ -35,22 +35,22 @@ class Welcome(Resource):
   
         return jsonify({'message': 'backend online'})
 	
-class Deposit(Resource): 
+class Deposits(Resource): 
 
 	def get(self, broker : str): 
 		d = deposits.all_for(broker)
 		return d.to_json(orient='records')
 
 
-class Statement(Resource): 
+class Statements(Resource): 
 
 	def get(self, broker : str): 
 		s = statements.all_for(broker)
 		return s.to_json(orient='records')
 
 
-api.add_resource(Deposit, '/deposit/<string:broker>') 
-api.add_resource(Statement, '/statement/<string:broker>') 
+api.add_resource(Deposits, '/deposits/<string:broker>') 
+api.add_resource(Statements, '/statements/<string:broker>') 
 api.add_resource(Welcome, '/') 
 
 
