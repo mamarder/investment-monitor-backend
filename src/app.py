@@ -39,14 +39,18 @@ class Deposits(Resource):
 
 	def get(self, broker : str): 
 		d = deposits.all_for(broker)
-		return d.to_json(orient='records')
+		result = d.to_json(orient='records')
+		log.info(f'Found {len(d)} deposits for broker {broker}')
+		return result
 
 
 class Statements(Resource): 
 
 	def get(self, broker : str): 
 		s = statements.all_for(broker)
-		return s.to_json(orient='records')
+		result = s.to_json(orient='records')
+		log.info(f'Found {len(s)} statements for broker {broker}')
+		return result
 
 
 api.add_resource(Deposits, '/deposits/<string:broker>') 
