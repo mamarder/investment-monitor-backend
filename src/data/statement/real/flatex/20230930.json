@@ -1,6 +1,6 @@
 {
     "type": "statement",
-    "broker": "Flatex",
+    "broker": "flatex",
     "currency" : "EUR",
     "value" : 3151.21,
     "date": {

@@ -1,6 +1,6 @@
 {
     "type": "statement",
-    "broker": "eToro",
+    "broker": "etoro",
     "currency" : "USD",
     "value" : 505.36,
     "date": {

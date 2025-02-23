@@ -1,6 +1,6 @@
 {
     "type": "deposit",  
-    "broker": "Flatex",
+    "broker": "flatex",
     "src_currency" : "CHF",
     "src_value" : 1168.45,
     "dest_currency" : "EUR",

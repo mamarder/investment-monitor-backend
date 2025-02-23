@@ -1,6 +1,6 @@
 {
     "type": "deposit",
-    "broker": "eToro",
+    "broker": "etoro",
     "src_currency" : "CHF",
     "src_value" : 500.00,
     "dest_currency" : "USD",

@@ -2,9 +2,9 @@
     "type": "statement",
     "broker": "flatex",
     "currency" : "EUR",
-    "value" : 1012.98,
+    "value" : 11456.16,
     "date": {
-        "year" : 2023,
-        "month": 3,
-        "day": 31}
+        "year" : 2025,
+        "month": 2,
+        "day": 23}
 }
