@@ -40,9 +40,9 @@ class Deposits(Resource):
 
 	def get(self, broker : str): 
 		log.info(f"Deposits for {broker}")
-		s = deposits.all_for(broker)
-		result = s.to_json(orient='records')
-		log.info(f'Found {len(s)} deposits for broker {broker}')
+		d = deposits.all_for(broker)
+		result = d.to_json(orient='records')
+		log.info(f'Found {len(d)} deposits for broker {broker}')
 		return result
 
 class Statements(Resource): 
@@ -71,9 +71,30 @@ class Overview(Resource):
 		return json.dumps(result)
 
 
+class Broker(Resource): 
+
+	def get(self, broker : str): 
+		log.info(f"Data for {broker}")
+		s = statements.all_for(broker)
+		d = deposits.all_for(broker)
+
+
+		s = s.to_dict(orient='records')
+		d = d.to_dict(orient='records')
+
+		log.info(f'Found {len(s)} statements for broker {broker}')
+		log.info(f'Found {len(d)} deposits for broker {broker}')
+
+		data = {"statements": s, "deposits": d}
+
+		return json.dumps(data)
+	
+
 api.add_resource(Deposits, '/<string:broker>/deposits') 
 api.add_resource(Statements, '/<string:broker>/statements') 
 api.add_resource(Overview, '/<string:broker>/overview') 
+api.add_resource(Broker, '/<string:broker>') 
+
 
 api.add_resource(Welcome, '/') 
 

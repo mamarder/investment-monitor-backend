@@ -35,6 +35,7 @@ def date_columns_to_datetime(df : pd.DataFrame) -> list:
             day =   row['date.day']
 
             date = (datetime.datetime(year=year, month=month, day=day))
-            dates.append(date)
+            iso_date =  date.strftime('%Y-%m-%d')
+            dates.append(iso_date)
 
         return dates
