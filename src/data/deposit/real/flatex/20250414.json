@@ -1,0 +1,12 @@
+{
+    "type": "deposit",
+    "broker": "flatex",
+    "src_currency" : "CHF",
+    "src_value" : 500.0,
+    "dest_currency" : "EUR",
+    "dest_value" : 532.42,
+    "date": {
+        "year" : 2025,
+        "month": 4,
+        "day": 14}
+}
