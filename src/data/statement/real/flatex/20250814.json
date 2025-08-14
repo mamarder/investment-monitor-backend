@@ -1,0 +1,10 @@
+{
+    "type": "statement",
+    "broker": "flatex",
+    "currency" : "EUR",
+    "value" : 14648.17,
+    "date": {
+        "year" : 2025,
+        "month": 8,
+        "day": 14}
+}
