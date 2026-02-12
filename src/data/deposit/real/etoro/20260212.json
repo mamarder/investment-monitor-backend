@@ -2,11 +2,11 @@
     "type": "deposit",
     "broker": "etoro",
     "src_currency" : "CHF",
-    "src_value" : 722.06,
+    "src_value" : 923.40,
     "dest_currency" : "USD",
-    "dest_value" : 900.00,
+    "dest_value" : 1200.00,
     "date": {
-        "year" : 2025,
-        "month": 10,
-        "day": 15}
+        "year" : 2026,
+        "month": 2,
+        "day": 12}
 }
